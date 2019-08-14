@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>softcubeinc</name>
+    <version>1.1.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/OSL-3.0">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Integration Extension</summary>
+    <description>Extension add possibility to integrate with softcube</description>
+    <notes>-</notes>
+    <authors><author><name>Oleg Lesov</name><user>OlegLesov</user><email>oleg.lesov@softcube.com</email></author></authors>
+    <date>2015-04-07</date>
+    <time>13:07:43</time>
+    <contents><target name="magecommunity"><dir name="SoftCube"><dir name="Integration"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><file name="Block.php" hash="94da6d3e10f7147d0b9c10c199a58494"/></dir></dir></dir><file name="Category.php" hash="df3322900f5d65276d36948aedfcbed1"/><file name="Customer.php" hash="85e97d6fa86f18537f44111edebd5af8"/><file name="Js.php" hash="0d6a0f0bc3c94892367b7c252e5ddec3"/><file name="Product.php" hash="6353db6ef94856c9febb73cee7fcdf72"/><file name="Success.php" hash="c439db1f6f495f9e89b4435fedb3b1ef"/></dir><dir name="Helper"><file name="Data.php" hash="25a150545db1856f68d4d4bd44014eef"/></dir><dir name="Model"><file name="Api.php" hash="6c4deb5dc25288363e37a2031fd87717"/><dir name="Service"><file name="Abstract.php" hash="a7308b726160d71af2cb3abc6c3c3191"/><file name="Cart.php" hash="4eeafa3e200d2b5d7ab4837249b309f6"/><file name="Softcube.php" hash="6dce51ea13ad3a21b001d0b3feca68a9"/></dir><file name="Zip.php" hash="0c990ef11b7210f4f9d490141809eef0"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="SoftcubeController.php" hash="c8b76e96c59b9f5876d6a44f4d54ddbd"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="4340d7d7410caa337830fe85a9098f2d"/><file name="config.xml" hash="4628cc4070c5b7045f8816a0658d469e"/><file name="system.xml" hash="af79998b52fb59f7e4deb4ed87105cfa"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="softcube"><dir name="integration"><dir name="config"><file name="block.phtml" hash="07d62802d70031d6efcb70e839fdfc13"/></dir></dir></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="softcube"><file name="integration.xml" hash="3bba2fa49e73b4496a9c93c09ae672d7"/></dir></dir><dir name="template"><dir name="softcube"><dir name="integration"><file name="category.phtml" hash="e4d3f799d15f666d7911705979658006"/><file name="customer.phtml" hash="c7ae7c0fc03a1a1ebd51237ae151f3f4"/><file name="js.phtml" hash="0beded594a4b902aaa13cd23cb04c8ef"/><file name="product.phtml" hash="b89458cf89e964e1dfcec83fc62f8fa4"/><file name="success.phtml" hash="b11c0bd66f92f7ff7c682b2f9311e496"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="SoftCube_Integration.xml" hash="801fd4c59f979af6cf46585467aa0b0b"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.6.0</max></php></required></dependencies>
+</package>

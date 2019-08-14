@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <softcube>
+            <label>SoftCube</label>
+            <sort_order>250</sort_order>
+        </softcube>
+    </tabs>
+    <sections>
+        <softcube translate="label" module="softcube_integration">
+            <label>Integration</label>
+            <tab>softcube</tab>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label">
+                    <label>General</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>100</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <frontend_model>softcube_integration/adminhtml_system_config_block</frontend_model>
+                </general>
+            </groups>
+        </softcube>
+    </sections>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SoftCube_Integration>
+            <active>true</active>
+            <codePool>community</codePool>
+        </SoftCube_Integration>
+    </modules>
+</config>

@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/softcubeinc",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Integration Extension",
+    "authors": [
+    {
+        "name": "Oleg Lesov",
+        "email": "oleg.lesov@softcube.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

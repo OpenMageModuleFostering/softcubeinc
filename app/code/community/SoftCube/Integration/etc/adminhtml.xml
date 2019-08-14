@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <softcube translate="title" module="softcube_integration">
+                        <title>SoftCube Install action</title>
+                    </softcube>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <softcube translate="title" module="softcube_integration">
+                                        <title>SoftCube Section</title>
+                                    </softcube>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
