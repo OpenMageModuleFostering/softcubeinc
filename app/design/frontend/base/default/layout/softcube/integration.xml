@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
     <default>
-        <reference name="before_body_end">
+        <reference name="after_body_start">
             <block name="softcube.js" type="softcube_integration/js" template="softcube/integration/js.phtml"/>
         </reference>
     </default>
